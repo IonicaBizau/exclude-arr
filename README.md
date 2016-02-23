@@ -16,6 +16,7 @@ $ npm i --save exclude-arr
 const excludeArr = require("exclude-arr");
 
 console.log(excludeArr([1, 2, 3, 42], 2));
+// [ 1, 3, 42 ]
 ```
 
 ## Documentation
@@ -36,6 +37,8 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
+
+ - [`class-methods`](https://github.com/IonicaBizau/class-methods#readme)
 
 ## License
 
