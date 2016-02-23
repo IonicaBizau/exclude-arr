@@ -2,4 +2,4 @@
 
 const excludeArr = require("../lib");
 
-console.log(excludeArr());
+console.log(excludeArr([1, 2, 3, 42], 2));
