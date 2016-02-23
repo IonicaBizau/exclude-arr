@@ -15,20 +15,21 @@ $ npm i --save exclude-arr
 
 const excludeArr = require("exclude-arr");
 
-console.log(excludeArr());
+console.log(excludeArr([1, 2, 3, 42], 2));
 ```
 
 ## Documentation
 
-### `excludeArr(a, b)`
-Exclude elements from arrays.
+### `excludeArr(arr, elm, first)`
+Exclude elements from the input array.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **Array** `arr`: Param descrpition.
+- **Number|String|Etc** `elm`: The element to remove.
+- **Boolean** `first`: If `true`, only the first element will be removed (even there are multiple ones).
 
 #### Return
-- **Number** Return description.
+- **Array** The input array. Note this is **not** a copy of the input array.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
