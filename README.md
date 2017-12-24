@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save exclude-arr
+# Using npm
+npm install --save exclude-arr
+
+# Using yarn
+yarn add exclude-arr
 ```
 
 
