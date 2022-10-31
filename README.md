@@ -48,7 +48,7 @@
 
 
 ## :cloud: Installation
-Follow below stepsto download using npm module
+Follow below stepsto download using npm module. Make sure you have the module downloaded
 
 ```sh
 # Using npm
