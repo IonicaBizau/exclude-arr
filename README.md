@@ -48,6 +48,7 @@
 
 
 ## :cloud: Installation
+Follow below stepsto download using npm module
 
 ```sh
 # Using npm
@@ -92,7 +93,7 @@ console.log(excludeArr([1, 2, 3, 42], 2));
 
 ## :question: Get Help
 
-There are few ways to get help:
+There are few ways to get help, follow steps and useful links for help.
 
 
 
